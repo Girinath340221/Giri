@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f1c40f;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Skills section styling */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.skill {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill h2 {
+    font-size: 1.5em;
+    color: #f1c40f;
+}
+
+/* Skill bar styling */
+.skill-bar {
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.skill-bar.html {
+    width: 90%;
+    background-color: #e34f26;
+}
+
+.skill-bar.css {
+    width: 80%;
+    background-color: #1572b6;
+}
+
+.skill-bar.js {
+    width: 75%;
+    background-color: #f7df1e;
+}
+
+.skill-bar.python {
+    width: 85%;
+    background-color: #306998;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Skills</h1>
+        <p>Here are some of the skills I possess:</p>
+    </header>
+
+    <section class="skills">
+        <div class="skill">
+            <h2>HTML</h2>
+            <div class="skill-bar html"></div>
+        </div>
+        <div class="skill">
+            <h2>CSS</h2>
+            <div class="skill-bar css"></div>
+        </div>
+        <div class="skill">
+            <h2>JavaScript</h2>
+            <div class="skill-bar js"></div>
+        </div>
+        <div class="skill">
+            <h2>Python</h2>
+            <div class="skill-bar python"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 My Skills Website</p>
+    </footer>
+</body>
+</html>
